@@ -8,6 +8,10 @@ body {
   font-family: "Baloo Tamma 2", cursive;
 }
 
+a:hover {
+  text-decoration: none;
+ }
+
 /* Main Heading Font */
 .m-heading {
   font-family: "Roboto Slab", serif;
