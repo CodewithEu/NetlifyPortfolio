@@ -61,7 +61,7 @@
           <a class="text-white nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="text-white btn" href="pdf/TanEugene_Resume.pdf" role="button" target="_blank">Resume</a>
+          <a class="text-white nav-link" href="pdf/TanEugene_Resume.pdf" target="_blank">Resume</a>
         </li>
         <li class="nav-item">
           <a class="text-white nav-link" href="#contact_me">Contact Me</a>
@@ -216,57 +216,76 @@
     </section>
 
     <!-- Project Section -->
-
+      
     <section id="projects" class="section">
-      <div class="container mt-3 pt-5">
-        <h1 class="text-warning mb-3 pb-2">Ongoing Projects</h1>
-        <div class="row">
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="./images/projects/grindstone.jpg" class="card-img-top" style="height: 13rem;" alt="..." />
-              <div class="card-body">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-warning section-header">Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card-deck">
+            <!-- GrindStone -->
+            <div class="card" onclick="window.open('https://game-tracker-frontend.herokuapp.com/','mywindow')">
+              <img class="card-img-top" src="./images/projects/grindstone.jpg" alt="Grindstone" style="height: 14rem;">
+                <div class="card-body">
                 <h5 class="card-title">GrindStone's E-commerce</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-warning">See Project</a>
+                  <p class="card-text">
+                    Collaboration with GrindStone to provide an E-commerce mobile application
+                  </p>
               </div>
+              <div class="card-footer">
+                <div class="tech-stack-div">
+                  <img src="images/logos/android.svg" title="Android Studio">
+                  <img src="images/Vertical_Line.svg">
+                  <img src="images/logos/java.svg" title="JAVA">
+                </div> 
+              </div>         
             </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="./images/fitness.svg" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+            <!-- Sport Scoreboard -->
+            <div class="card" onclick="window.open('https://github.com/iMarbles/rsa-aes-example','mywindow')">
+              <img class="card-img-top" src="./images/fitness.svg" alt="Sport Scoreboard" style="height: 14rem;">
               <div class="card-body">
-                <h5 class="card-title">Sports Mobile App</h5>
-                <p class="card-text">
-                  An all-in-one sports scoreboard for user to use
-                </p>
-                <a href="#" class="btn btn-warning">See Project</a>
+                <h5 class="card-title">Sports Scoreboard</h5>
+                  <p class="card-text">
+                    All-in-one sport scoreboard to test out Kotlin and Java in Android Studio
+                  </p>
+              </div>
+              <div class="card-footer">
+                <div class="tech-stack-div">
+                  <img src="images/logos/android.svg" title="Android Studio">
+                    <img src="images/Vertical_Line.svg">
+                    <img src="images/logos/java.svg" title="JAVA">
+                    <img src="images/logos/kotlin.svg" title="KOTLIN">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="./images/web_scraping.svg" class="card-img-top" alt="..." style="height: 13rem;" />
+            <!-- Online Portfolio -->
+            <div class="card" onclick="window.open('https://cs2103-ay1819s1-w16-2.github.io/main/','mywindow')">
+              <img class="card-img-top" src="./images/web_scraping.svg" alt="OnlinePortfolio" style="height: 14rem;">
               <div class="card-body">
                 <h5 class="card-title">Online Portfolio</h5>
-                <p class="card-text">
-                  My journey to improve and showcase my coding skills. Follow to see my progress
-                </p>
+                  <p class="card-text">
+                    Journey to improve my coding skills. Follow to see progresses
+                  </p>
+              </div>
+              <div class="card-footer">
                 <div class="tech-stack-div">
+                  <img src="images/logos/visualstudio.svg" title="Visual Studio Code">
+                  <img src="images/Vertical_Line.svg">
                   <img src="images/logos/html5.svg" title="HTML">
                   <img src="images/logos/css-5.svg" title="CSS">
                 </div>
-                <br/>
-                <a href="#" class="btn btn-warning">See Project</a>
               </div>
             </div>
           </div>
+          
+          <div class="col-12 d-flex justify-content-center" style="margin-top: 40px;">
+            <a href="https://github.com/CodewithEu" class="btn btn-warning" role="button" target="_blank">MORE PROJECTS</a>
+          </div>
         </div>
-      </div>
     </section>
-
         <!-- 
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
@@ -317,7 +336,7 @@
 
     <!-- Contact_Me Section -->
     <section id="contact_me" class="section">
-      <div  class="container-fluid">
+      <div class="container-fluid">
         <div class="container text-white py-5">
           <h1 class="m-heading text-warning">Contact Me</h1>
 
@@ -346,7 +365,9 @@
               <button type="submit" class="btn btn-dark" style="float:right">Send!</button>
             </div>
           </form>
+          <br/>
 
+          <!--
           <div class="row pt-5 justify-content-center">
             <div class="col-3 media_link btn" href="#">
               <a href="https://www.linkedin.com/in/tan-eugene/" target="_blank">
@@ -396,8 +417,21 @@
                   <i class="fas fa-envelope fa-2x text-secondary"></i>
                 </div>
                 <!-- <a href="mailto:eeugenettan@gmail.com" class="icon-button google" target="_blank"><i class="fab fa-google"
-                style="margin: 0px;"></i><span></span></a> -->
+                style="margin: 0px;"></i><span></span></a> 
               </div>
+            </div>
+          </div> -->
+
+          <div class="col-12 d-flex justify-content-center">
+            <div class="social-media-div">
+              <a href="https://github.com/CodewithEu" class="icon-button github" target="_blank"> 
+                <i class="fab fa-github"style="margin: 0px;"></i><span></span></a>
+              <a href="https://www.linkedin.com/in/tan-eugene/" class="icon-button linkedin" target="_blank">
+                <i class="fab fa-linkedin-in" style="margin: 0px 15px;"></i><span></span></a>
+              <a href="https://www.instagram.com/codewitheu/" class="icon-button instagram" target="_blank">
+                <i class="fab fa-instagram" style="margin: 0px;"></i><span></span></a>
+              <a href="mailto:eeugenettan@gmail.com" class="icon-button google" target="_blank">
+                <i class="fab fa-google" style="margin: 0px 15px;"></i><span></span></a>
             </div>
           </div>
         </div>
