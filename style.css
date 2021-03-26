@@ -267,7 +267,7 @@ hr.school{
 }
 
 .instagram i {
-  background-color: #8a3ab9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#667eea), to(#764ba2));
 }
 
 .google i {
