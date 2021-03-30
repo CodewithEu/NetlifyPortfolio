@@ -24,6 +24,10 @@ a:hover {
   box-shadow: 0px 0px 5px #999;
 }
 
+.section {
+  padding: 40px;
+}
+
 /* Navigation */
 .navigation-link {
   border: 2px solid transparent;
@@ -92,6 +96,10 @@ a:hover {
   font-weight: 500;
 }
 
+
+
+
+
 .intro-gradient {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -114,12 +122,6 @@ a:hover {
 .header-btn {
   width: 150px;
   margin: 10px;
-}
-
-.section-header {
-  margin-bottom: 20px;
-  font-family: "Lora";
-  font-weight: 500;
 }
 
 .description {
