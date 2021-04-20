@@ -313,8 +313,8 @@ h2 {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    /* color:#FFFFFF; */
-    color:#000000;
+    color:#FFFFFF;
+    /* color:#000000; */
 }
 
 .icons i {
