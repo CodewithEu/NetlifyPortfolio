@@ -1,0 +1,13 @@
+/* Flexbox */
+/* To use flexbox, we will use display property. */
+
+/* [1][2][3][4] */
+body {
+    display:flex;
+}
+
+/* body {
+    display:flex;
+    flex-direction: row | column | row-reverse | column-reverse;
+} */
+
