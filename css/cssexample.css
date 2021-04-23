@@ -11,3 +11,54 @@ body {
     flex-direction: row | column | row-reverse | column-reverse;
 } */
 
+
+
+
+/* Basic Geometric Shapes */
+
+/* #square {
+    width: 250px;
+    height: 250px;
+    background: color;
+}
+
+#rectangular {
+    width: 350px;
+    height: 250px;
+    background: color;
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: color;
+}
+
+#triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid color;
+}
+
+#oval {
+    width: 400px;
+    height: 200px;
+    border-radius: 200px / 100px;
+    background: color;
+}
+
+#parallelogram {
+    width: 400px;
+    height: 200px;
+    transform: skew(20deg);
+    background: color;
+} */
+
+
+
+
+
+
