@@ -59,6 +59,76 @@ body {
 
 
 
+/* Stacked Cards Examples */
 
+/* body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.card-list{
+    display: flex;
+    padding: 3rem;
+    overflow-x: scroll;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background-color: rgb(34,33,33);
+    box-shadow: -1rem 0 3rem #000;
+    transition: .2s;
+}
+
+.card-hover{
+    transform: transateY(-1rem);
+}
+.card-hover~.card{
+    transform: translateX(130px);
+}
+.card:not(:first-child){
+    margin-left: -130px;
+}
+.card-author{
+    position: relative;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+}
+.author-avatar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 16px 10px;
+}
+.athor-name-prefix{
+    font-style: normal;
+    font-weight: 700;
+    color: #7a7a8c;
+}
+.card-list::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb{
+    background-color: #201c28;
+    box-shadow: inset 2px 2px 2px
+        hsla(0,0%,100%,.25), inset -2px -2px 2px
+        rgba(0,0,0,.25);
+}
+.card-list::-webkit-scrollbar-track{
+    background:
+    linear-gradient(90deg,#201c29,#201c29 1px, #17141d 0, #17141d);
+} */
 
 
